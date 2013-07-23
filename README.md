@@ -19,9 +19,6 @@ Play TicTacToe with your friends in real-time.
 1. Copy and past the CSS that is provided in class.
 2. Build the HTML DOM element structure to display the board.
 
-## Step 3 - Layering in socket.io
-
-1. [app.js] Modify server to require socket.io and listen over web socket connection.
 
 
 
