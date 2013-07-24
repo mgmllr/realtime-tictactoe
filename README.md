@@ -29,6 +29,16 @@ Play TicTacToe with your friends in real-time.
 
 1. Run 'npm install' from working directory and restart server.
 
+## Step 4 - Implement test web socket functionality
+
+1. [/public/javascripts] Create socket.js file and add boilerplate socket.io 'news' event listener.
+2. [layout.jade] Add script to load socket.js file.
+2. [app.js] Add socket.io 'news' event emitter.
+
+## Test our progress
+
+1. Restart server and re-load localhost:3000. Make sure real-time event is handled.
+
 
 
 
