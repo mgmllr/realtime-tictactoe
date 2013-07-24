@@ -23,7 +23,12 @@ Play TicTacToe with your friends in real-time.
 
 1. [app.js] Modify app to require socket.io and listen over web socket connection.
 2. [./routes/index] Modify create function to accept io variable along with app variable.
-2. [package.json] Modify to include socket.io in dependencies.
+3. [package.json] Modify to include socket.io in dependencies.
+4. [layout.jade] Modify to include jQuery and socket.io.
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', type='text/javascript')
+script(src='/socket.io/socket.io.js', type='text/javascript')
+
+
 
 ## Test our progress
 
