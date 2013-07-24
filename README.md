@@ -19,6 +19,16 @@ Play TicTacToe with your friends in real-time.
 1. Copy and past the CSS that is provided in class.
 2. Build the HTML DOM element structure to display the board.
 
+## Step 3 - Implement Socket.io
+
+1. [app.js] Modify app to require socket.io and listen over web socket connection.
+2. [./routes/index] Modify create function to accept io variable along with app variable.
+2. [package.json] Modify to include socket.io in dependencies.
+
+## Test our progress
+
+1. Run 'npm install' from working directory and restart server.
+
 
 
 
