@@ -37,8 +37,12 @@ io.sockets.on('connection', function (socket) {
 	socket.emit('news', { hello: 'world' });
 
 	socket.on('playerX', function (data) {
-		console.log(data);
+		console.log('Player X position: '+data);
 	});
+
+	socket.on('playerY', function (data) {
+		console.log('Player Y position: '+data);
+	})
 });
 
 

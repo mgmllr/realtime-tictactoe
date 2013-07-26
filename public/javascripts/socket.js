@@ -1,4 +1,6 @@
 $(function() {
+	var player = 'playerX';
+
 	var socket = io.connect('http://localhost');
 	socket.on('news', function (data) {
 		console.log(data);
@@ -14,7 +16,15 @@ $(function() {
 		else {
 			$(this).css('background-color', 'red');
 			console.log('I just clicked');
-			socket.emit('playerX', {position: position });
+			console.log(player);
+			if(player === 'playerX') {
+				socket.emit('playerX', { position: position });
+				player = 'playerY';
+			}
+			if(player === 'playerY') {
+				socket.emit('playerY', { position: position });
+				player = 'playerX';
+			}
 		}
 	});
 });
