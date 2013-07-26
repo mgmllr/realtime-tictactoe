@@ -40,6 +40,19 @@ Play TicTacToe with your friends in real-time.
 1. Restart server and re-load localhost:3000. Make sure real-time event is handled.
 
 
+## Step 5 - Implement player functionality
+
+1. [app.js] Remove 'my other event' event from the server (we don't need it).
+2. [app.js] Create our 'playerX' event that simply console.log's the data it receives.
+3. [style.css] Change all the .a1, etc. classes to be id's. We need a unique identifier for each position on the playing board.
+4. [style.css] Change the :hover classes to be a single class called .position:hover (we only need one of these since all positions utilize the same style).
+5. [index.jade] Update the jade file to account for new changes to css (i.e. change appropriate classes to id's and include the .position class on each board position).
+6. [socket.js] Encapsulate entire file into an anonymous function. We need this because we're going to start registering "events" to the DOM.
+7. [socket.js] Add a click handler that executes each time the .position class is clicked.
+8. [socket.js] When a player clicks on the board position, check if the clicked position has already been played. If it has, print a message to the client. If not, change the background of that position to red. When a valid position is clicked, use socket to send the board position back to the server.
+  
+
+
 
 
 

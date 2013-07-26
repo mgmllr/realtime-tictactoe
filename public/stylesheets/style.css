@@ -33,7 +33,7 @@ a {
 	height: 300px;
 }
 
-.a1 {
+#a1 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -42,12 +42,8 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.a1:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.a2 {
+#a2 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -56,12 +52,8 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.a2:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.a3 {
+#a3 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -69,12 +61,8 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.a3:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.b1 {
+#b1 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -83,12 +71,8 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.b1:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.b2 {
+#b2 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -97,12 +81,7 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.b2:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
-
-.b3 {
+#b3 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -110,12 +89,8 @@ a {
 	border-bottom: 5px solid #333;
 }
 
-.b3:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.c1 {
+#c1 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -123,12 +98,8 @@ a {
 	border-right: 5px solid #333;
 }
 
-.c1:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.c2 {
+#c2 {
 	float: left;
 	display: inline-block;
 	width: 295px;
@@ -136,19 +107,15 @@ a {
 	border-right: 5px solid #333;
 }
 
-.c2:hover {
-	background-color: #78ffc0;
-	cursor: pointer;
-}
 
-.c3 {
+#c3 {
 	float: left;
 	display: inline-block;
 	width: 295px;
 	height: 300px;
 }
 
-.c3:hover {
+.position:hover {
 	background-color: #78ffc0;
 	cursor: pointer;
 }
