@@ -3,10 +3,9 @@ Play TicTacToe with your friends in real-time.
 ## Step 1 - Express boilerplate modifications
 
 1. Create a boilerplate express app.
-2. [app.js] Edit the boilerplate routes definition.
+2. [./routes/index.js] Modify index.js file to encapsulate all routes in create function and export.
 3. [./routes] Delete user.js file.
-4. [./routes/index.js] Modify index.js file to encapsulate all routes in create function and export.
-5. [app.js] Require ./routes/index file and pass app through our new routes handler function.
+4. [app.js] Require ./routes/index file and pass app through our new routes handler function - i.e. - our create function in routes/index.
 
 ## Test our progress
 
