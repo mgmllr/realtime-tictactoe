@@ -51,6 +51,14 @@ Play TicTacToe with your friends in real-time.
 7. [socket.js] Add a click handler that executes each time the .position class is clicked.
 8. [socket.js] When a player clicks on the board position, check if the clicked position has already been played. If it has, print a message to the client. If not, change the background of that position to red. When a valid position is clicked, use socket to send the board position back to the server.
 
+[Test]
+
+9. [app.js] Update the 'playerX' server-side event handler to print 'Player X position: '+data.
+10. [app.js] Add the 'playerY' event to the server.
+11. [socket.js] Include a variable to keep track of the "current player". Remember this must be at the highest level of the file (there's a term for this, what is it?).
+12. [socket.js] Use the 'player' variable to check who's making the current move and emit the appropriate socket event.
+
+
 QUESTION FOR STUDENTS: Why is the server emitting both the 'playerX' and 'playerY' events?  
 
 
